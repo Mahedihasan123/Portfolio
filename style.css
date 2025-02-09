@@ -1,0 +1,15 @@
+.flexbox{
+    background-color: aqua;
+    font-size: 35px;
+    display: flex;
+   /* flex-wrap: wrap;
+    flex-direction: column-reverse;*/
+    flex-flow:wrap column ;
+}
+.flexbox > div{
+    background-color: grey;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+
+}
